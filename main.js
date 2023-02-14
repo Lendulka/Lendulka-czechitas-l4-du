@@ -50,7 +50,7 @@ let { street, number, city, postalCode } = eshopUser;
 
 document.querySelector('.adresaEshop').innerHTML = `
     <address>
-        <p>Adresa:</p>
+        <h2>Adresa:</h2>
         <p>${street} ${number}</p>
         <p>${postalCode} ${city}</p>
     </address>
